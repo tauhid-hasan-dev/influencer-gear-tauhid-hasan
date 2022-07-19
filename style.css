@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 152px;
+    background-color: #f4a3a3;
+}
+
+.intro {
+    width: 100%;
+    height: 538px;
+    background-color: #A2F9CF;
+}
+
+.marketplaces {
+    width: 100%;
+    height: 180px;
+    background-color: #f4a3a3;
+}
+
+.products {
+    width: 100%;
+    height: 1773px;
+    background-color: #c7d7fd;
+}
+
+.featured {
+    width: 100%;
+    height: 427px;
+    background-color: #f4a3a3;
+}
+
+footer {
+    width: 100%;
+    height: 239px;
+    background-color: #3544D0;
+
 }
