@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -11,39 +11,199 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+button {
+    background-color: #43ac5f;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+/* HEADER PART STARTS */
+
 .header {
     width: 100%;
-    height: 152px;
+    min-height: 152px;
     background-color: #f4a3a3;
 }
+
+nav {
+    display: flex;
+    padding: 100px 7.5rem 20px;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    margin-left: 34px;
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navigation i {
+    margin-left: 34px;
+    font-size: 36px;
+    color: #3A3A3A;
+}
+
+/* HEADER PART ENDS */
+
+/* INTRO PART STARTS HERE */
 
 .intro {
     width: 100%;
-    height: 538px;
+    max-width: 1600px;
+    min-height: 33.625rem;
     background-color: #A2F9CF;
+    padding: 1.875em 7.5em;
+    display: flex;
 }
+
+.intro-headline {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.intro-headline h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 70px;
+    color: #3A3A3A;
+}
+
+.intro-headline a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro-headline i {
+    margin-left: 10px;
+}
+
+.intro-photo {
+    width: 50%;
+
+}
+
+.intro-photo img {
+    width: 100%;
+}
+
+/* INTRO PART ENDS HERE */
+
+/* MARKETPLACES STARTS HERE */
 
 .marketplaces {
     width: 100%;
-    height: 180px;
-    background-color: #f4a3a3;
+    min-height: 180px;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.marketplace-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.188rem;
+    border-top: 2px solid rgb(210, 210, 210);
+    border-bottom: 2px solid rgb(182, 182, 182);
+}
+
+.marketplace-logos img {
+    margin: 0 1.875rem;
+}
+
+/* MARKETPLACES ENDS HERE */
+
+/* PRODUCTS STARTS HERE */
 .products {
     width: 100%;
-    height: 1773px;
+    min-height: 110.813rem;
     background-color: #c7d7fd;
 }
 
+.product {
+    width: 20.563rem;
+    min-height: 29.75rem;
+    box-shadow: 0 0 8px gray;
+    padding: 0.938rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.product h1 {
+    font-weight: 500;
+    font-size: 1.75;
+    line-height: 2.5rem;
+    color: #18191F;
+}
+
+.product h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 143%;
+    color: #787885;
+    letter-spacing: 0.018em;
+}
+
+.product h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.ratings {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.ratings i {
+    color: #FB8200;
+    font-size: 10px;
+    margin: 0;
+}
+
+.ratings .empty {
+    color: #cacaca;
+}
+
+.ratings p {
+    margin-left: .8rem;
+    color: #5E6366;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+}
+
+
+
+/* PRODUCTS ENDS HERE */
 .featured {
     width: 100%;
-    height: 427px;
+    min-height: 427px;
     background-color: #f4a3a3;
 }
 
 footer {
     width: 100%;
-    height: 239px;
+    min-height: 239px;
     background-color: #3544D0;
-
 }
